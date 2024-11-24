@@ -1,25 +1,5 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-    /**
-     * colors
-     */
-
+    /* Cores */
     --russian-violet: #0056b3;
     --dark-purple: hsl(268, 22%, 15%);
     --eerie-black: hsl(240, 4%, 10%);
@@ -35,10 +15,7 @@
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
 
-    /**
-     * typography
-     */
-
+    /* Tipografia */
     --ff-poppins: 'Poppins', sans-serif;
     --ff-roboto: 'Roboto', sans-serif;
 
@@ -53,30 +30,20 @@
     --fw-600: 600;
     --fw-500: 500;
 
-    /**
-     * spacing
-     */
-
+    /* Espaçamento */
     --section-padding: 50px;
 
-    /**
-     * box shadow
-     */
 
+    /* Sombras */
     --shadow-1: 0px 0px 20px var(--black_10);
     --shadow-2: 0 0 20px 4px var(--black_5);
 
-    /**
-     * border radius
-     */
 
+    /* Bordas */
     --radius-6: 6px;
     --radius-10: 10px;
 
-    /**
-     * transition
-     */
-
+    /* Transição */
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease;
     --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);

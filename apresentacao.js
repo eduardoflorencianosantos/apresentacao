@@ -1,11 +1,5 @@
 'use strict';
 
-
-
-/**
- * add event on element
- */
-
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
     for (let i = 0; i < elem.length; i++) {
@@ -15,12 +9,6 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
-
-
-/**
- * navbar toggle
- */
 
 const navbar = document.querySelector("[data-navbar]");
 const navToggler = document.querySelector("[data-nav-toggler]");
@@ -34,11 +22,6 @@ const closeNavbar = function () { navbar.classList.remove("active"); }
 
 addEventOnElem(navLinks, "click", closeNavbar);
 
-
-
-/**
- * header active
- */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
